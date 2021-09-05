@@ -1,0 +1,21 @@
+.image-card-container {
+  position: relative;
+  background-image: url("../../../assets/images/ovni.jpg");
+  width: 480px;
+  height: 480px;
+  background-position: center;
+  background-size: contain;
+
+  .text-container {
+    position: absolute;
+    padding: 10px;
+    background-color: #e93479;
+    color: #300350;
+    text-align: center;
+    font-size: 28px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    width: 250px;
+  }
+}

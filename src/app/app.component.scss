@@ -1,0 +1,22 @@
+.main-container {
+  display: grid;
+  grid-template-columns: 480px 480px;
+  grid-template-rows: 1fr 2fr;
+  gap: 8px;
+  grid-template-areas:
+    "blue-card gradient-card"
+    "blue-card image-card";
+  place-content: center;
+}
+
+app-blue-card {
+  grid-area: blue-card;
+}
+
+app-gradient-card {
+  grid-area: gradient-card;
+}
+
+app-image-card {
+  grid-area: image-card;
+}

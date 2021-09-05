@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { GradientComponentComponent } from './gradient-component.component';
+import { ImageCardComponent } from './image-card.component';
 
-describe('GradientComponentComponent', () => {
-  let component: GradientComponentComponent;
-  let fixture: ComponentFixture<GradientComponentComponent>;
+describe('ImageCardComponent', () => {
+  let component: ImageCardComponent;
+  let fixture: ComponentFixture<ImageCardComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ GradientComponentComponent ]
+      declarations: [ ImageCardComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(GradientComponentComponent);
+    fixture = TestBed.createComponent(ImageCardComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
