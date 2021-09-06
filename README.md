@@ -1,6 +1,6 @@
 # CSS3 Simple Grid
 
-Listagem de filmes, feito em Angular 12.
+Grid layout simples, em CSS3.
 
 ### Instalação e execução
 
